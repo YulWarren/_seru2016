@@ -1,0 +1,137 @@
+@charset "utf-8";
+
+@namespace url(http://www.w3.org/1999/xhtml); /* set default namespace to HTML */
+
+
+
+.container
+{
+	width:95%;
+	padding-left: 7px;
+	padding-right: 7px;
+	margin-right: auto;
+	margin-left: auto;
+}
+#mynavbar{
+	width: 100%;
+	padding-left: 10px;
+}
+
+.top{
+	/*background-image: url('../images/top.jpg');*/
+	background-repeat: no-repeat;
+	height: 97px;
+}
+
+.main{
+	/*background-image: url('../images/main.jpg');*/
+	background-repeat: no-repeat;
+	height: 100%;
+	margin: 0 auto;
+}
+
+.bottom{
+	/*background-image: url('../images/bottom.jpg');*/
+	background-repeat: no-repeat;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	margin: 0 auto;
+}
+.left_btn{
+	padding-left: 120px;	
+}
+
+#luck{
+	padding-top: 150px;
+
+}
+
+#weibo{
+	background: url('../images/bottom_btn.png') left top;
+	
+}
+
+#renren{
+	
+    background: url('../images/bottom_btn.png') no-repeat left -108px;
+    width: 200px;
+}
+
+#email{
+	background: url('../images/bottom_btn.png') left -36px;
+	
+}
+
+
+#official_site{
+	background: url('../images/bottom_btn.png') left -72px;
+	width: 200px;
+	background-repeat: no-repeat;	
+}
+
+.bottom_btn{
+	margin-top: 30px;
+	margin: 0 auto;
+	line-height: 36px;
+	font-size: 1.2em;
+	width:147px;
+	height:36px;
+	float: left;
+}
+
+.icon{
+	background-image: url('../images/seru-icon2.jpg');
+}
+
+
+.bottom a{
+	text-decoration: none;
+	display: block;
+	/*padding-left: 50px;*/
+	color: black;
+	padding-left: 30px;
+}
+
+#official_site a{
+	padding-left: 70px;
+
+}
+/*
+.nav>li>a{
+	top:15px;
+}*/
+h1{
+	text-align:center;
+}
+.lead{
+	text-align: center;
+}
+.lead-ch{
+	text-align: center;
+}
+.lead-eng{
+	text-align: center;
+}
+.text-center a:hover{
+	color: blue;
+}
+
+.jumbotron{
+	background-color: #ccccff;
+}
+.navbar-nav li a:hover{
+	color: #f1e1ff
+}
+
+.count{
+	
+	text-align: center;
+}
+.panel-group{
+	text-align: left;
+}
+
+.navbar-brand{
+	float: left;
+}

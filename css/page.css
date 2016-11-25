@@ -1,0 +1,85 @@
+@charset "utf-8";
+
+@namespace url(http://www.w3.org/1999/xhtml); /* set default namespace to HTML */
+
+
+.container
+{
+	width: 100%;
+	max-width:1000px;
+
+}
+
+.title{
+	/*background-image: url('../images/page_title.png');*/
+	height: 203px;
+	background-color: #ccccff;
+
+}
+
+.content{
+	/*background-image: url('../images/bkg.png');*/
+	font-size: 1.2em;
+	padding: 20px  5% ;
+}
+
+.breadcrumb{
+	background-color: transparent;
+}
+
+
+.bottom{
+	font-size: 1.3em;
+	/*padding-top: 25px;*/
+	/*background-image: url('../images/bottom.jpg');*/
+	/*height: 100px;*/
+	text-align: center;
+}
+
+.bottom a{
+	text-decoration: none;
+	color: #bb3d00;
+
+}
+
+.table{
+	background-color: rgb(249, 249, 249);
+}
+
+dl dt{
+	font-size: 1.2em;
+	padding-top: 1.3em;
+}
+
+strong{
+	color: #990099;
+}
+
+.video_content{
+	margin: 0 auto;
+	width: 640px;
+	max-width: 80%
+	height: 480px;
+}
+
+* {max-width: 100%} /* the usual RWD shebang */
+
+ 
+.transcript p {
+	text-indent:2em;
+}
+
+.transcript h2{
+	text-align: center;
+	line-height:  60px;
+	font-size: 1.5em;
+}
+
+.bottom img{
+	padding-right: 10px;
+}
+
+.text{
+	margin-top: 15px;
+	text-indent: 2em;
+}
