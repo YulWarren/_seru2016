@@ -1,0 +1,54 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">  
+<html xmlns="http://www.w3.org/1999/xhtml">  
+    <head>  
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />  
+        <title>按钮组buttongroup</title>  
+        <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no">  
+        <link href="css/bootstrap.css" rel="stylesheet" media="screen">  
+        <script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>  
+        <script type="text/javascript" src="js/bootstrap.js"></script>  
+    </head>  
+  
+    <body>  
+        <!--要求按钮组铺满整个页面-->  
+         
+<div class="container center-block">
+
+
+     <div class="navbar navbar-default navbar-primary" id="mynavbar" role="navigation">
+    <div class="navbar-header">
+     　<!-- .navbar-toggle样式用于toggle收缩的内容，即nav-collapse collapse样式所在元素 -->
+       <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".navbar-responsive-collapse">
+       
+         <span class="sr-only">Toggle Navigation</span>
+         <span class="icon-bar"></span>
+         <span class="icon-bar"></span>
+         <span class="icon-bar"></span>
+       </button>
+       <!-- 确保无论是宽屏还是窄屏，navbar-brand都显示 -->
+       <a href="./index.html" class="navbar-brand">SERU2016</a>
+  </div>
+  <!-- 屏幕宽度小于768px时，div.navbar-responsive-collapse容器里的内容都会隐藏，显示icon-bar图标，当点击icon-bar图标时，再展开。屏幕大于768px时，默认显示。 -->
+  <div class="btn-group btn-group-justified">
+  
+        
+            <div class="btn-group">  
+                <!--不存在下拉菜单的按钮这样写，为按钮定义链接比较少见，请注意-->  
+                <a href="#" class="btn btn-info"> Left </a>  
+            </div>  
+            <div class="btn-group">  
+                <button type="button" class="btn btn-success">  
+                    Middle  
+                </button>  
+            </div>  
+            <div class="btn-group">  
+                <button type="button" class="btn btn-success">  
+                    Right  
+                </button>  
+            </div>  
+  </div> 
+  </div>
+</div>
+</div>
+    </body>  
+</html>
