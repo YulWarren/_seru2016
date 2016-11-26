@@ -63,34 +63,52 @@ div#mynavbar div.navbar-responsive-collapse a:hover{
      </head>
     <body>
     <div class="container center-block">
-     <div class="navbar navbar-default" id="mynavbar" role="navigation">
-    <div class="navbar-header">
-     　<!-- .navbar-toggle样式用于toggle收缩的内容，即nav-collapse collapse样式所在元素 -->
-       <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".navbar-responsive-collapse">
-       
-         <span class="sr-only">Toggle Navigation</span>
-         <span class="icon-bar"></span>
-         <span class="icon-bar"></span>
-         <span class="icon-bar"></span>
-       </button>
-       <!-- 确保无论是宽屏还是窄屏，navbar-brand都显示 -->
-       <a href="./index.html" class="navbar-brand">SERU2016</a>
-  </div>
-  <!-- 屏幕宽度小于768px时，div.navbar-responsive-collapse容器里的内容都会隐藏，显示icon-bar图标，当点击icon-bar图标时，再展开。屏幕大于768px时，默认显示。 -->
-  <div class="collapse navbar-collapse navbar-responsive-collapse">
-      <ul class="nav nav-pills navbar-nav navbar-responsive-collapse">
-          <li><a href="./index.html">首页</a></li>
-          <li class="active"><a href="./faq.html">SERU介绍</a></li>
-          <li><a href="./2013_report.html">2013调查简报</a></li>
-          <li><a href="./luck.html">抽奖结果</a></li>
-          <li><a href="./wishes.html">课题组寄语</a></li>
-    </ul>
-  </div>
+<div class="img-responsive" style="margin-top: 5px">
+  <img src="images/main.png" class="img-rounded">
 </div>
+<div class="navbar navbar-info navbar-primary" id="mynavbar" role="navigation">
+  <div class="btn-group btn-group-justified" style="margin-top: 5px">
+            <div class="btn-group">
+            <a href="./index.html">
+                <button type="button" class="btn btn-info">  
+                首页
+                </button>  
+            </a>
+            </div>  
+            <div class="btn-group">
+            <a href="./faq.html">
+                <button type="button" class="btn btn-primary">  
+                介绍
+                </button>  
+            </a>
+            </div>  
+            <div class="btn-group"> 
+            <a href="./2013_report.html">
+              <button class="btn btn-info">
+                seru2013
+                </button>    
+            </a>
+            </div>  
+            <div class="btn-group"> 
+            <a href="./luck.html">
+              <button class="btn btn-info">
+                抽奖
+                </button>    
+            </a>
+            </div>
+            <div class="btn-group"> 
+            <a href="./wishes.html">
+              <button class="btn btn-info">
+                寄语
+                </button>    
+            </a>
+            </div>             
+  </div> 
+  </div>
        
-       <div class="jumbotron">
+       
         <h2 class="lead-ch">SERU调查的基本介绍</h2>
-      </div>
+     <hr>
       <h4 id="title4">一、SERU调查基本介绍</h4>
       <p class="twoem">SERU是“Student Experience in Research University”的首字母缩写，即为“研究型大学本科生就读经历的调查”。该调查最先由美国加州大学伯克利分校于2000年发起，旨在对加州大学系统进行学生就读质量的比较和监控。随着该调查的影响力逐渐扩大，不但全美有17所顶尖的公立研究型大学加入到SERU联盟中，包括中国的南京大学、西安交大、湖南大学、同济大学，日本的大阪大学、广岛大学，英国的牛津大学、布里斯托尔大学，荷兰的阿姆斯特丹大学等在内的多所世界著名大学都纷纷加入。</p>
       <p class="twoem">南京大学是全国第一所明确提出“创建中国最好的本科教育”的研究型大学。近年来，以“三三制”改革为核心的本科教育改革的努力也取得了初步的成效，以“三三制”改革为内容的南大教育改革成果于2014年荣获国家级教学成果特等奖。但荣誉的背后，意味着更多的教育使命、责任，意味着南大的本科教育改革需要向深处挺进、向高处迈进。我们坚信，本科教育改革成败的根本，在于学生的体验、感受和满意度，在于学生是否感到从大学教育经历中真正取得了进步与收获，在于学生是否真正体验到在南大度过了“黄金四年”。SERU调查的主要目的正是旨在了解每位本科生就读期间的体验与质量状况，并重点围绕课堂投入、学业参与、入学观念、课外活动、信息技术经历、全球化体验、学业满意度等方面展开调查。</p> 
@@ -179,9 +197,6 @@ div#mynavbar div.navbar-responsive-collapse a:hover{
         <script src="js/jquery-1.10.2.min.js"></script>
         <!-- Include all compiled plugins (below), or include individual files as needed -->
         <script src="js/bootstrap.min.js"></script>
-        <div class="count">
-<!--访问量代码-->
-    <script type="text/javascript" src="js/visited.js"></script>
-</div>
+        
 </body>
 </html>

@@ -61,35 +61,52 @@ div#mynavbar div.navbar-responsive-collapse a:hover{
   </head>
     <body>
     <div class="container center-block">
-     <div class="navbar navbar-default" id="mynavbar" role="navigation">
-    <div class="navbar-header">
-     　<!-- .navbar-toggle样式用于toggle收缩的内容，即nav-collapse collapse样式所在元素 -->
-       <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".navbar-responsive-collapse">
-       
-         <span class="sr-only">Toggle Navigation</span>
-         <span class="icon-bar"></span>
-         <span class="icon-bar"></span>
-         <span class="icon-bar"></span>
-       </button>
-       <!-- 确保无论是宽屏还是窄屏，navbar-brand都显示 -->
-       <a href="./index.html" class="navbar-brand">SERU2016</a>
-  </div>
-  <!-- 屏幕宽度小于768px时，div.navbar-responsive-collapse容器里的内容都会隐藏，显示icon-bar图标，当点击icon-bar图标时，再展开。屏幕大于768px时，默认显示。 -->
-  <div class="collapse navbar-collapse  navbar-responsive-collapse">
-      <ul class="nav nav-pills navbar-nav navbar-responsive-collapse">
-          <li><a href="./index.html">首页</a></li>
-          <li><a href="./faq.html">SERU介绍</a></li>
-          <li><a href="./2013_report.html">2013调查简报</a></li>
-          <li><a href="./luck.html">抽奖结果</a></li>
-          <li class="active"><a href="./wishes.html">课题组寄语</a></li>
-    </ul>
-  </div>
+<div class="img-responsive" style="margin-top: 5px">
+  <img src="images/main.png" class="img-rounded">
 </div>
+<div class="navbar navbar-info navbar-primary" id="mynavbar" role="navigation">
+  <div class="btn-group btn-group-justified" style="margin-top: 5px;margin-bottom: 5px">
+            <div class="btn-group">
+            <a href="./index.html">
+                <button type="button" class="btn btn-info">  
+                首页
+                </button>  
+            </a>
+            </div>  
+            <div class="btn-group">
+            <a href="./faq.html">
+                <button type="button" class="btn btn-info">  
+                介绍
+                </button>  
+            </a>
+            </div>  
+            <div class="btn-group"> 
+            <a href="./2013_report.html">
+              <button class="btn btn-info">
+                seru2013
+                </button>    
+            </a>
+            </div>  
+            <div class="btn-group"> 
+            <a href="./luck.html">
+              <button class="btn btn-info">
+                抽奖
+                </button>    
+            </a>
+            </div>
+            <div class="btn-group"> 
+            <a href="./wishes.html">
+              <button class="btn btn-primary">
+                寄语
+                </button>    
+            </a>
+            </div>             
+  </div> 
+  </div>
     
-      
-        <div class="jumbotron">
+    
         <h2 class="lead-ch">课题组寄语</h2>
-        </div>
+        <hr>
           
           <div class="video_content">
             <video id="my_video_1" class="video-js vjs-default-skin" autoplay controls
