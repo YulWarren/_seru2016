@@ -63,39 +63,86 @@ div#mynavbar div.navbar-responsive-collapse a:hover{
      </head>
     <body>
     <div class="container center-block">
-<div class="img-responsive" style="margin-top: 5px">
+<div class="img-responsive" style="margin-top: 5px;margin-bottom: 5px">
   <img src="images/main.png" class="img-rounded">
 </div>
-<div class="navbar navbar-info navbar-primary" id="mynavbar" role="navigation">
-  <div class="btn-group btn-group-justified" style="margin-top: 5px;margin-bottom: 5px">
-            <div class="btn-group">
+<div class="navbar navbar-default navbar-primary" id="mynavbar" role="navigation">
+    <div class="navbar-header" id="navbar-header">
+     　<!-- .navbar-toggle样式用于toggle收缩的内容，即nav-collapse collapse样式所在元素 -->
+       <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".navbar-responsive-collapse">
+       
+         <span class="sr-only">Toggle Navigation</span>
+         <span class="icon-bar"></span>
+         <span class="icon-bar"></span>
+         <span class="icon-bar"></span>
+       </button>
+       <!-- 确保无论是宽屏还是窄屏，navbar-brand都显示 -->
+       <a href="./index.html" class="navbar-brand">SERU2016</a>
+  </div>
+  <!-- 屏幕宽度小于768px时，div.navbar-responsive-collapse容器里的内容都会隐藏，显示icon-bar图标，当点击icon-bar图标时，再展开。屏幕大于768px时，默认显示。 -->
+  <div class="collapse navbar-collapse navbar-responsive-collapse" id="nav">
+      <div class="nav nav-pills navbar-nav navbar-responsive-collapse" style="margin-top:8px">
+          
+          <div class="btn-group">
             <a href="./index.html" class="btn btn-info">  
-                首页  
+                首页
             </a>
             </div>  
             <div class="btn-group">
             <a href="./faq.html" class="btn btn-info">  
-                介绍 
+                SERU介绍 
             </a>
             </div>  
             <div class="btn-group"> 
             <a href="./2013_report.html" class="btn btn-info">
-                seru2013    
+                2013年调查结果展示
             </a>
             </div>  
             <div class="btn-group"> 
             <a href="./luck.html" class="btn btn-primary">
-                抽奖    
+                抽奖信息
+                    
             </a>
             </div>
             <div class="btn-group"> 
             <a href="./wishes.html" class="btn btn-info">
-                寄语    
+                课题组寄语
+                  
             </a>
-            </div>             
-  </div> 
+            </div>
+    </div>
   </div>
-       
+</div>
+<script type="text/javascript"> 
+if(navigator.appName == "Microsoft Internet Explorer" && navigator.appVersion .split(";")[1].replace(/[ ]/g,"")=="MSIE6.0") 
+{ 
+var u=document.getElementById("navbar-header");
+u.style.display="none";
+var s=document.getElementById("nav");
+s.style.display="block"; 
+} 
+else if(navigator.appName == "Microsoft Internet Explorer" && navigator.appVersion .split(";")[1].replace(/[ ]/g,"")=="MSIE7.0") 
+{ 
+var u=document.getElementById("navbar-header");
+u.style.display="none";
+var s=document.getElementById("nav");
+s.style.display="block"; 
+} 
+else if(navigator.appName == "Microsoft Internet Explorer" && navigator.appVersion .split(";")[1].replace(/[ ]/g,"")=="MSIE8.0") 
+{ 
+var u=document.getElementById("navbar-header");
+u.style.display="none";
+var s=document.getElementById("nav");
+s.style.display="block";
+} 
+else if(navigator.appName == "Microsoft Internet Explorer" && navigator.appVersion .split(";")[1].replace(/[ ]/g,"")=="MSIE9.0") 
+{ 
+var u=document.getElementById("navbar-header");
+u.style.display="none";
+var s=document.getElementById("nav");
+s.style.display="block";
+} 
+</script>
 
         <div class="text alert alert-info" style="margin-top: 5px">
           <p>亲爱的同学们，</p>
