@@ -22,11 +22,11 @@
         <!--要求按钮组铺满整个页面-->  
          
 <div class="container center-block">
-<div class="img-responsive" style="margin-top: 5px">
+<div class="img-responsive" style="margin-top: 5px;margin-bottom: 5px">
   <img src="images/main.png" class="img-rounded">
 </div>
 <div class="navbar navbar-default navbar-primary" id="mynavbar" role="navigation">
-    <div class="navbar-header">
+    <div class="navbar-header" id="navbar-header">
      　<!-- .navbar-toggle样式用于toggle收缩的内容，即nav-collapse collapse样式所在元素 -->
        <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".navbar-responsive-collapse">
        
@@ -38,9 +38,32 @@
        <!-- 确保无论是宽屏还是窄屏，navbar-brand都显示 -->
        <a href="./index.html" class="navbar-brand">SERU2016</a>
   </div>
+  <script type="text/javascript">
+   
+if(navigator.appName == "Microsoft Internet Explorer" && navigator.appVersion.match(/7./i)=="7.") 
+{ 
+var u=document.getElementById("nvabar-header")
+u.style.display="none"; 
+} 
+else if(navigator.appName == "Microsoft Internet Explorer" && navigator.appVersion.match(/8./i)=="8.") 
+{ 
+var u=document.getElementById("nvabar-header")
+u.style.display="none"; 
+} 
+else if(navigator.appName == "Microsoft Internet Explorer" && navigator.appVersion.match(/9./i)=="9.") 
+{ 
+var u=document.getElementById("nvabar-header")
+u.style.display="none"; 
+} 
+else if(navigator.appName == "Microsoft Internet Explorer") 
+{ 
+var u=document.getElementById("nvabar-header")
+u.style.display="none"; 
+} 
+</script>
   <!-- 屏幕宽度小于768px时，div.navbar-responsive-collapse容器里的内容都会隐藏，显示icon-bar图标，当点击icon-bar图标时，再展开。屏幕大于768px时，默认显示。 -->
   <div class="collapse navbar-collapse navbar-responsive-collapse">
-      <ul class="nav nav-pills navbar-nav navbar-responsive-collapse" style="margin-top:8px">
+      <div class="nav nav-pills navbar-nav navbar-responsive-collapse" style="margin-top:8px">
           
           <div class="btn-group">
             <a href="./index.html" class="btn btn-primary">  
@@ -49,30 +72,30 @@
             </div>  
             <div class="btn-group">
             <a href="./faq.html" class="btn btn-info">  
-                介绍 
+                SERU介绍 
             </a>
             </div>  
             <div class="btn-group"> 
             <a href="./2013_report.html" class="btn btn-info btn-justified">
-                seru2013
+                2013年调查结果展示
             </a>
             </div>  
             <div class="btn-group"> 
             <a href="./luck.html" class="btn btn-info">
-                抽奖
+                抽奖信息
                     
             </a>
             </div>
             <div class="btn-group"> 
             <a href="./wishes.html" class="btn btn-info">
-                寄语
+                课题组寄语
                   
             </a>
             </div>
-    </ul>
+    </div>
   </div>
 </div>
-<div id="carousel-example-generic" class="carousel slide" data-ride="carousel" data-interval="3000">
+<div id="carousel-example-generic" class="carousel slide" data-ride="carousel" data-interval="3000" style="margin-top: 5px">
   <!-- Indicators -->
   <ol class="carousel-indicators">
     <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
